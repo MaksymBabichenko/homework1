@@ -23,7 +23,9 @@ header {
   padding-bottom: 60px;
   min-height: 100vh;
 }
-
+.main-image {
+  max-width: 715px;
+}
 h1 {
   font-weight: 700;
   font-size: 48px;
@@ -61,4 +63,29 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   color: #303030;
+}
+
+.text-field {
+  width: 330px;
+  padding: 8px;
+  border: 1px solid rgba(48, 48, 48, 0.3);
+  border-radius: 5px;
+  width: 330px;
+  height: 36px;
+}
+.btn {
+  border-radius: 5px;
+  width: 125px;
+  height: 36px;
+  background-color: #2965f1;
+}
+.line {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.table-1 {
+  border: 1px solid #95a1bb;
+}
+
+.th1 {
 }
