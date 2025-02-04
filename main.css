@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  color: rgb(48, 48, 48);
 }
 header {
   background-color: #2965f1;
@@ -51,12 +52,12 @@ h2 {
   margin-bottom: 25px;
 }
 
-.first-list {
+.frameworks-list {
   padding-left: 20px;
   list-style-image: url("./images/arrow-list.svg");
 }
 
-.checkbox-label {
+.label {
   font-weight: 400;
   font-size: 16px;
   color: #303030;
