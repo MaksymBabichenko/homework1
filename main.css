@@ -1,15 +1,16 @@
 * {
-  font-family: "Inter", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
 }
 header {
   background-color: #2965f1;
   padding: 22.35px;
 }
 .header-logo {
-  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: #fff;
@@ -23,7 +24,6 @@ header {
 }
 
 h1 {
-  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 48px;
   color: #303030;
