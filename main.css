@@ -25,6 +25,7 @@ header {
 }
 .main-image {
   max-width: 715px;
+  width: 100%;
 }
 h1 {
   font-weight: 700;
@@ -74,6 +75,8 @@ h2 {
   height: 36px;
 }
 .btn {
+  color: #fff;
+  border: none;
   border-radius: 5px;
   width: 125px;
   height: 36px;
@@ -84,8 +87,12 @@ h2 {
   margin-bottom: 60px;
 }
 .table-1 {
-  border: 1px solid #95a1bb;
+  border color: rgba(149, 161, 187, 1)
 }
-
-.th1 {
+.tr1 {
+  padding: 10 15px;
+}
+footer{
+  background-color:rgba(163, 167, 255, 0.3) ;
+  padding: 26px;
 }
