@@ -64,11 +64,12 @@ h2 {
 }
 
 .frameworks-list {
-  padding-left: 0px 20px;
+  padding: 0px 20px;
   list-style-image: url("./images/arrow-list.svg");
 }
-.book-list {
-  padding: 0px 20px;
+.books-list {
+  padding: 0 20px;
+  font-size: 16px;
 }
 
 .label {
@@ -99,6 +100,7 @@ h2 {
   margin-bottom: 60px;
 }
 .table-1 {
+  font-size: 14px;
   border: 1px solid rgba(149, 161, 187, 1);
   border-collapse: collapse;
 }
@@ -113,4 +115,8 @@ footer {
   font-size: 14px;
   color: #2965f1;
   text-decoration: none;
+}
+.table-1 th,
+.table-1 td {
+  padding: 12px 15px;
 }
