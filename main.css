@@ -88,11 +88,18 @@ h2 {
 }
 .table-1 {
   border color: rgba(149, 161, 187, 1)
+  border-style: border: 1px;;
 }
 .tr1 {
   padding: 10 15px;
 }
 footer{
+  font-weight: 400;
+font-size: 14px;
+color: #2965f1;
   background-color:rgba(163, 167, 255, 0.3) ;
   padding: 26px;
+}
+.footer-link{
+  text-decoration: none;
 }
