@@ -8,7 +8,7 @@
   outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
   margin: 0 auto;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1140px;
   /* 📍 Максимальная ширина для контейнера */
 }
 
@@ -36,8 +36,8 @@ header span {
   align-content: center;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: column;
+  /* flex-wrap: nowrap;
+  flex-direction: column; */
 
   /* 📍 Свойства flexbox для размещения container-a вертикально по центру */
 }
@@ -94,6 +94,8 @@ select {
 select:hover,
 .text-field:hover {
   cursor: pointer;
+  border: 2px solid #000;
+  transition: 0.3;
   /* 📍 Стили для выпадающего списка и текстового поля при наведении курсора */
 }
 
@@ -148,6 +150,7 @@ select:hover,
   display: flex;
   font-weight: 400;
   font-size: 16px;
+  padding-bottom: 20px;
 }
 
 form {
@@ -179,6 +182,9 @@ form {
 
 .btn:hover {
   cursor: pointer;
+  transform: perspective(45deg);
+  transition: 0.3;
+  background: rgba(41, 101, 241, 0.9);
   /* 📍 Стили для кнопки при наведении курсора */
 }
 
@@ -215,5 +221,6 @@ footer {
 
 .footer-link:hover {
   text-decoration: underline;
+  text-align: center;
   /* 📍 Стили для ссылки при наведении курсора */
 }
