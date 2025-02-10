@@ -44,7 +44,7 @@ header span {
 
 .main-section .wrapper {
   display: flex;
-  align-content: normal;
+  align-items: center;
   justify-content: center;
   gap: 60px;
   /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
@@ -76,6 +76,7 @@ header span {
 }
 
 .about-section .wrapper {
+  display: flexbox;
   gap: 20px;
   /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
@@ -137,6 +138,9 @@ select:hover,
 }
 
 .skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   min-width: 50%;
 }
 /* 📍 Свойства flexbox для расположения элементов с классом .label */
