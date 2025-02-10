@@ -44,8 +44,9 @@ header span {
 
 .main-section .wrapper {
   display: flex;
-  align-content: center;
+  align-content: normal;
   justify-content: center;
+  gap: 60px;
   /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
 }
 
@@ -75,6 +76,7 @@ header span {
 }
 
 .about-section .wrapper {
+  gap: 20px;
   /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -117,14 +119,14 @@ select:hover,
 
 .frameworks-list,
 .books-list {
-  margin-bottom: 15px;
+  gap: 16px;
   /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
 .frameworks-list {
   font-weight: 400;
   font-size: 16px;
-  list-style-image: url(./solar_map-arrow-up-bold.svg);
+  list-style-image: url(./images/arrow-list.svg);
   padding-left: 20px;
 }
 
